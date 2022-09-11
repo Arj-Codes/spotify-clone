@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+  background-color: antiquewhite;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+font-family: 'ubuntu', sans-serif;
+}
+
+.brand img{
+  width: 50px;
+}
+.brand{
+  display : flex;
+  align-items: center;
+  font-weight: bold;
+  font-size:18px;
+  padding : 8px;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height : 50px;
+  background-color: black;
+  color: white;
+}
+
+nav ul li{
+  padding : 0px 12px;
+  transition: transform 0.2s;
+}
+nav ul li:hover{
+  cursor: pointer;
+  transform : scale(1.1);
+}
+
+.raining{
+  width:260px;
+}
+
+.bottom{
+  background-color:black;
+  height : 130px;
+  position: sticky;
+  bottom : 0;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  flex-direction: column;
+}
+
+.container{
+  min-height : 62%;
+  background-color:black;
+  color: white;
+  font-family: 'Varela Round',sans-serif;
+  display: flex;
+  margin : 20px auto;
+  width : 50%;
+  border-radius: 12px;
+  padding:34px;
+  background-image: url('rain.jpg');
+}
+
+#progressBar{
+width : 80%;  
+}
+
+.icons{
+margin-top: 15px;
+cursor: pointer;
+}
+
+.songs img{
+max-width: 100px;
+}
+.songs{
+  height:50px;
+  display: flex;
+  background-color: white;
+  width: 80%;
+  color:black;
+  margin : 12px 0;  
+}
